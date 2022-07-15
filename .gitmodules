@@ -1,0 +1,6 @@
+[submodule "fnf-client"]
+	path = fnf-client
+	url = https://github.com/merrccury/fnf-client.git
+[submodule "fnf-server"]
+	path = fnf-server
+	url = https://github.com/merrccury/fnf-server.git
