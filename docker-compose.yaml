@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  fnf-server:
+    container_name: fnf-server
+    build: ./fnf-server
+    ports:
+      - "8080:80"
+    env_file:
+      - "./fnf-server/.env"
+    volumes:
+      - ./fnf-server/src:/app/src
